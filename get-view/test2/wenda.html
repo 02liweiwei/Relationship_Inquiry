@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 新人物关系主界面  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人物关系查询系统</title>
+    <link rel="stylesheet" href="sucai/iconfont/2iconfont/iconfont.css">
+    <link rel="stylesheet" href="css/style_answer.css">
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+    <script src="../test2/js/script.js"></script>
+</head>
+<style>
+    .box2_rightchild{
+    background-color: rgb(167, 196, 246);
+    
+    }
+    .view_pic{
+        float: right;
+        position: absolute;
+        display: inline;
+        /* overflow: hidden; */
+        /* margin-right: 20px; */
+        margin-top: 0px;
+    }
+    .box2_rightchild>iframe{
+    
+    /* width: 1180px;  
+    height:500px; */
+    margin-left: -8px;
+    border:none;
+    /* margin: 100px auto; */
+    /* border: 10px dashed rgb(58, 58, 58); */
+    transform-origin: right bottom; 
+    transform: scale(1, 1);
+    /* transform: scale(0.5) */
+    /* background-size:300px 800px; */
+    
+    }
+</style>
+<body>
+    <div class="box1">
+        <div class="search">
+            <input placeholder="搜索人物"  type="text" id="searchinput">
+            <button onclick="searchAndRedirect()"><span class="iconfont icon-sousuo"></span></button>
+            <!-- <span class="iconfont icon-sousuo"></span> -->
+            <script src="../test2/js/script.js"></script>
+        </div>
+    </div>
+    
+   
+
+    <!-- 盒子二 -->
+    <div class="box2">
+        <div class="box2child purple">
+            <ul>
+                <li>
+                    <span class="iconfont icon-dongtai"></span>
+                    <a href="index1.html">人物关系全貌</a>
+                </li>
+                <li>
+                    <span class="iconfont icon-remen"></span>
+                    <a href="geren.html">人物个人信息</a>
+                </li>
+                <li>
+                    <span class="iconfont icon-headset"></span>
+                    <a href="chujing.html">人物出境次数</a>
+                </li>
+                <li>
+                    <span class="iconfont icon-dongtai"></span>
+                    <a href="wenda.html">人物问答系统</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="box2_rightchild">
+            <h4>下面是出场次数排名前50的人物，您可以在搜索框中查询~</h4>
+            <div class="view_pic">
+                <iframe name="woc" frameborder="0" width="900px" height="380px" src="../test2/chujing.html"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

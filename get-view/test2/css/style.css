@@ -1,0 +1,136 @@
+
+.box1{
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+    margin: auto;
+    position:relative;
+    background-size: 100% 100%;/*背景图片的大小  */
+    /* 超出隐藏 */
+    overflow: hidden;   
+}
+
+/* 搜索框 */
+.search{
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    margin: auto;
+    margin-top: 25px;
+    position: relative;
+    z-index: 200;
+    border-radius: 10px;
+}
+.search>input{
+    margin-left: 10px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+}
+.search>span{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.box2{
+    width: 100%;
+    height: 550px;
+    /*height: 200px;*/
+    margin-top: -10px;
+    /*background-color:red;*/
+}
+
+.box2child{
+    width: 15%;
+    height: 550px; 
+    float: left;
+    background-color: rgb(120, 120, 224);
+    text-align: center;
+} 
+ul{
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  z-index: 1000;
+}
+/* 字 */
+li{
+    float:left;
+    margin-right: 10px;
+    color: white;
+}
+
+.box2child>ul>li>a{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    bottom: 20px;
+    /* 跳转文字下方横线消除 */
+    text-decoration: none;
+}
+
+.purple>ul>li:first-child>span{
+    background-color: rgb(207, 120, 120);
+    width: 20px;
+    height: 20px;
+    line-height: 40px;
+    border-radius: 13px;
+}
+.purple> ul>li:nth-child(2)>span{
+    background-color: rgb(223, 114, 190);
+    width: 20px;
+    height: 20px;
+    line-height: 40px;
+    border-radius: 13px;
+}
+.purple> ul>li:nth-child(3)>span{
+    background-color: rgb(137, 182, 222);
+    width: 20px;
+    height: 20px;
+    line-height: 40px;
+    border-radius: 13px;
+}
+
+/* 第二个盒子的ul的图标大小 */
+.box2child> ul>li>span{
+    font-size: 30px;
+}
+/* 颜色变换 */
+.box2child> ul:nth-child(1)>li>a:hover{
+    color: rgb(186, 102, 02);
+    bottom: 20px;
+}
+/* 图标跳动 */
+.box2child> ul>li>span:hover{
+    color: rgb(186, 102, 02);
+    bottom: 20px; 
+}
+.box2child> ul>li>span{
+    position:relative;
+    bottom: 0px;
+    transition: all 0.5s;
+    }
+
+
+.box2_rightchild{
+        width:85%;
+        height: 550px;
+        /* background:rgb(203, 53, 78); */
+        float:right;
+        /* background-image: url('../sucai/images/总体.png'); */
+        background-size: cover;
+    
+}
+.box2_rightchild>img{
+    width: 100%;
+    height: 550px;
+}
+
+
+
+
+
+
+
+
+

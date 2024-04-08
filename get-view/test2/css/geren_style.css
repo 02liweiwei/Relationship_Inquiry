@@ -1,0 +1,221 @@
+
+.box1{
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+    margin-top: -7px;
+    position: relative;
+}
+.box1child{
+    width: 315px;
+    height: 100px;
+    /* background-color: #adade0; */
+    float: left;
+}
+.box1child>ul{
+    list-style: none;
+}
+.box1child>ul>li{
+    border-radius: 10%;
+    /* margin-left: 60px; */
+    margin-top: 5px;
+    width: 313px;
+    height: 30px;
+    background-color: rgb(120, 120, 224);
+    text-align: center;
+}
+.box1child>ul>li>a{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    cursor: pointer;
+}
+/* 搜索框 */
+.search{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(218, 110, 110);
+    margin-left: 50%;
+    margin-top: 30px;
+    position: absolute;
+    z-index: 200;
+    border-radius: 10px;
+}
+/* 输入 */
+.search>input{
+    width:350px ;
+    height: 38px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+}
+.search>button{
+    width: 30px;
+    height: 30px;
+}
+.search>button>span{
+    float: right;
+    font-size: 30px;
+    margin-top: -15px;
+    margin-left: -15px;
+    /* margin-left: 10px; */
+    position: absolute;
+}
+
+.box2{
+   
+    width: 100%;
+    position: relative;
+}
+.box2_leftchild{
+    display: inline;
+    float: left;
+    width: 30%;
+    height: 450px;
+    background-color: aqua;
+}
+/*
+.box2_leftchild>ul{
+    list-style: none;
+    display: inline-block;
+    z-index: 1000;
+}
+.box2_leftchild>ul>li{
+    width: 80px;
+    height: 110px;
+    float:left;
+    margin-left: 10px;
+    color: rgb(173, 95, 95);
+}
+.box2_leftchild>ul>li>img{
+    width: 80px;
+    height: 80px;
+}
+.box2_leftchild>ul>li>a{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 5px;  text-align: center;
+} */
+
+/* 标题区 */
+.titlelist{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(225, 129, 129, 0.9);
+    color:white;
+    border-bottom :2px solid 
+     rgb(230, 155, 155);
+}
+.titlelist>div{
+    float: left;
+    margin-right: 5px;
+    /* 行高 */
+    line-height: 50px;
+}
+.titletop{
+    border-bottom: 2px solid
+    rgb(213, 168, 168);
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+
+
+
+
+/* 内容区 */
+ul{
+    margin: 0;
+    padding: 0;
+}
+.contentmiddle{
+    width: 1500px;
+    height: 400px;
+    background-color: #adade0;
+    color: white;
+    /* position: absolute; */
+}
+/* 五个板块 */
+.contentmiddle>div{
+    float: left;
+    /* 设置和titlelist一样 */
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+   
+}
+/* 超出这个范围隐藏 */
+.contentinsert{
+    width: 100%;
+    /* height: 600px; */
+    background-color: rgb(172, 131, 131);
+    position: relative;
+    /* 超出300px 隐藏*/
+    overflow: hidden;
+}
+
+/* 互动内容设置 */
+.contentmiddlemoudel>ul>li{
+    /* font-size: 14px;
+    color: #5761cd;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin: 10px; */
+    width: 85px;
+    height: 120px;
+    float:left;
+    margin-left: 13px;
+    margin-top: 13px;
+    color: rgb(173, 95, 95);
+}
+.contentmiddlemoudel>ul>li>img{
+    width: 85px;
+    height: 85px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.contentmiddlemoudel>ul>li>a{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 5px;  text-align: center;
+    text-decoration: none;
+    color: black;
+} 
+
+/* 大图 */
+.box2_rightchild{
+    width: 735px;
+    height: 448px;
+    /* background-color: rgb(167, 196, 246); */
+    float: right;
+    position: absolute;
+    display: inline;
+    overflow: hidden;
+    /* margin-right: 20px; */
+    margin-top: 0px;
+}
+.box2_rightchild>iframe{
+    
+    /* width: 1180px;  
+    height:500px;
+    margin-left: -8px; */
+    border:none;
+    /* margin: 100px auto; */
+    /* border: 10px dashed rgb(58, 58, 58); */
+    transform-origin: left top; 
+    transform: scale(0.7, 0.855);
+    /* transform: scale(0.7,0.499); */
+    /* background-size:735px 451px; */
+    background-size:1050px 560px; 
+    background-image: url('../sucai/images/总体.png');
+    overflow: hidden;
+    
+}
+
+/* .box2_rightchild>iframe>img{
+
+} */
+
+  

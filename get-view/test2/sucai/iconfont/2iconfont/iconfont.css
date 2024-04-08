@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4226459 */
+  src: url('iconfont.woff2?t=1693189998179') format('woff2'),
+       url('iconfont.woff?t=1693189998179') format('woff'),
+       url('iconfont.ttf?t=1693189998179') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shouye1:before {
+  content: "\e631";
+}
+
+.icon-huiyuan:before {
+  content: "\e645";
+}
+
+.icon-ketang:before {
+  content: "\e613";
+}
+
+.icon-shequ:before {
+  content: "\e663";
+}
+
+.icon-headset:before {
+  content: "\e694";
+}
+
+.icon-mingxinghuodong:before {
+  content: "\e8b3";
+}
+
+.icon-zhuanlan:before {
+  content: "\e630";
+}
+
+.icon-zhibo:before {
+  content: "\e65f";
+}
+
+.icon-sousuo:before {
+  content: "\e62f";
+}
+
+.icon-pindao:before {
+  content: "\e64f";
+}
+
+.icon-remen:before {
+  content: "\e6a6";
+}
+
+.icon-shouye:before {
+  content: "\e621";
+}
+
+.icon-chuangzaonengli:before {
+  content: "\e60d";
+}
+
+.icon-denglu:before {
+  content: "\e604";
+}
+
+.icon-shoucang:before {
+  content: "\e68d";
+}
+
+.icon-dongtai:before {
+  content: "\e622";
+}
+
+.icon-tougaorenwu:before {
+  content: "\e65b";
+}
+
+.icon-xiaoxi-zhihui:before {
+  content: "\e61d";
+}
+
